@@ -17,6 +17,6 @@ These wrappers automatically disable components until client-side hydration is c
 
 ## Updating Conda Environment Dependencies
 
-Conda dependencies in `environment.yml` files are not automatically updated by dependabot.
-The `maintenance-scripts/` folder contains utilities to help update conda environment versions.
+Dependabot updates conda dependencies in the `environment.yml` files listed in `.github/dependabot.yml`. Some packages are pinned on purpose with `ignore:` blocks (for example `nextclade`, see #7784).
+The `maintenance-scripts/` folder contains a script to check conda packages by hand, for example pinned ones or environments not listed in `dependabot.yml`.
 

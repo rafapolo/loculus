@@ -4,7 +4,7 @@ Throwaway utility scripts for one-off maintenance tasks.
 
 ## check_conda_versions.py
 
-A simple script to check for updates to conda packages in `environment.yml` files, since dependabot doesn't support conda dependencies.
+A simple script to check for updates to conda packages in `environment.yml` files. Dependabot now updates the environments listed in `.github/dependabot.yml`, so this script is mainly useful for packages pinned there with `ignore:` (such as `nextclade`) and for environments that are not listed.
 
 **Usage:**
 ```bash

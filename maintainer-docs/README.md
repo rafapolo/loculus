@@ -3,3 +3,4 @@
 This folder documents standard operating procedures for Loculus maintainers.
 
 - [Dependabot duty SOP](./dependabot_duty_sop.md)
+- [Security updates SOP](./security_updates_sop.md)
